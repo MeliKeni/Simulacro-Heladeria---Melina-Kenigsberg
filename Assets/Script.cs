@@ -21,7 +21,7 @@ public class Script : MonoBehaviour
         }    else
         {
 
-            costo = cantidadHelado * 500;
+            costo = cantidadHelado/1000 * 500;
 
             if (codigoSabor == "FRU")
             {

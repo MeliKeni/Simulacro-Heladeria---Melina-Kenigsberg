@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abbccb2315f8bab47a103090bc201de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  codigoSabor: DDL
-  cantidadHelado: 8
+  codigoSabor: CHO
+  cantidadHelado: 1000
 --- !u!4 &1287061699
 Transform:
   m_ObjectHideFlags: 0
