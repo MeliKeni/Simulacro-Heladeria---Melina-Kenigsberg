@@ -8,7 +8,8 @@ public class Script : MonoBehaviour
     public string codigoSabor;
     public float cantidadHelado;
     float costo;
-
+    float descuento = 0.9f;
+    float precioPorKilo = 500;
 
     void Start()
     {
@@ -21,11 +22,11 @@ public class Script : MonoBehaviour
         }    else
         {
 
-            costo = cantidadHelado/1000 * 500;
+            costo = cantidadHelado/1000 * precioPorKilo;
 
             if (codigoSabor == "FRU")
             {
-                costo = costo * 0.9f;
+                costo = costo * descuento;
             }
 
             Debug.Log("El costo es de " + costo + "$");
